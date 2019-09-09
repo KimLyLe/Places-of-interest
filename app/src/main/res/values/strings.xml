@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Places_of_interest</string>
+    <string name="textView" />
 </resources>

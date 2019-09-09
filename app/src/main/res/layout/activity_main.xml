@@ -7,7 +7,9 @@
         android:layout_height="match_parent"
         tools:context=".PlacesOfInterestActivity">
     <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="395dp"
-            android:layout_height="715dp" app:layout_constraintEnd_toEndOf="parent" tools:layout_editor_absoluteY="8dp"
-            app:layout_constraintStart_toStartOf="parent"/>
+        android:id="@+id/rvPlaces"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="395dp"
+        android:layout_height="715dp" app:layout_constraintEnd_toEndOf="parent" tools:layout_editor_absoluteY="8dp"
+        app:layout_constraintStart_toStartOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
